@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+    background-image: url(./images/fondo3.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    /* background-color: #BFAE99; */
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1E3859;
+}
+h1 {
+    font-size: 5rem;
+    color: #1E3859;
+}
+.main_cont {
+    width: 60vw;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+    /* background-color: #D0D3D9; */
+}
+.sub-main_cont {
+    max-width: 1440px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.cont01 {
+    max-width: 60rem;
+    height: 20rem;
+    padding: 0 5rem;
+    margin: 5rem 0 0 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #73532C;
+}
+.frase {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.frase p:nth-child(2) {
+    width: 15em;
+    font-size: 2.175rem;
+}
+
+/* seccion "sobre Bruno" */
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.profile-cont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.photo_profile {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.photo_profile img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-cont p{
+    font-size: 1.125rem;
+}
+
+/* seccion "mi proposito" */
+.proposito {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.proposito-cont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.proposito-cont p {
+    font-size: 1.125rem;
+}
+.pymes {
+    display: flex;
+    gap: 2rem;
+}
+.pymes img {
+    width: 7rem;
+    height: auto;
+}
+
+/* seccion "clientes" */
+.clientes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cliente {
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E3859;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+    /* padding: 1rem 1rem; */
+    border-radius: .5rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.img_cliente_difuminada {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+.img_cliente_difuminada img {
+    width: auto;
+    height: 6rem;
+    object-fit: cover;
+    filter: blur(3px);
+}
+.cliente p {
+    text-align: center;
+    font-size: .85rem;
+    color: white;
+}
+
+/* seccion "muestrario" */
+.muestrario {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.muestras-p-aclaracion {
+    margin-bottom: 3rem;
+}
+.muestras {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.muestra {
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E3859;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+    /* padding: 1rem 1rem; */
+    border-radius: .5rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.muestra:hover {
+    cursor: pointer;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+
+}
+.img_muestra_difuminada {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+.img_muestra_difuminada img {
+    width: auto;
+    height: 6rem;
+    object-fit: cover;
+    filter: blur(1px);
+}
+.muestra p {
+    text-align: center;
+    font-size: .85rem;
+    color: white;
+    padding: 0 1rem;
+}
+
+/* seccion "habilidades y conocomientos" */
+.hab_cono {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.lenguajesProgramacion {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 3rem;
+    color: white;
+}
+.lenguaje_pro {
+    width: 3.125rem;
+    height: 3.125rem;
+    display: grid;
+    place-content: center;
+    background-color: #254159;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.lenguaje_pro p {
+    font-size: .75rem;
+}
+.tecnologias {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.tecnologia {
+    width: 5rem;
+    height: 3.125rem;
+    display: grid;
+    place-content: center;
+    background-color: #254159;
+    border-radius: 2rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.tecnologia p {
+    font-size: .75rem;
+}
