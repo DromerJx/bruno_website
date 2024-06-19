@@ -54,8 +54,8 @@ h1 {
     gap: 3rem;
 }
 .frase p:nth-child(2) {
-    width: 15em;
-    font-size: 2.175rem;
+    width: 25rem;
+    font-size: 1.75rem;
 }
 
 /* seccion "sobre Bruno" */
