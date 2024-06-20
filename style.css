@@ -58,7 +58,7 @@ h1 {
     font-size: 1.75rem;
 }
 
-/* seccion "sobre Bruno" */
+/* section "sobre Bruno" */
 .profile {
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@ h1 {
     font-size: 1.125rem;
 }
 
-/* seccion "mi proposito" */
+/* section "mi proposito" */
 .proposito {
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ h1 {
     height: auto;
 }
 
-/* seccion "clientes" */
+/* section "clientes" */
 .clientes {
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ h1 {
     color: white;
 }
 
-/* seccion "muestrario" */
+/* section "muestrario" */
 .muestrario {
     height: fit-content;
     display: flex;
@@ -213,7 +213,7 @@ h1 {
     margin-bottom: 3rem;
 }
 
-/* seccion "habilidades y conocomientos" */
+/* section "habilidades y conocomientos" */
 .hab_cono {
     display: flex;
     flex-direction: column;
